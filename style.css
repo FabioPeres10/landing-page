@@ -3,8 +3,8 @@
     cores
    */
 
-  --russian-violet: hsl(12, 100%, 2%);
-  --dark-purple: hsl(268, 49%, 15%);
+  --black-on: hsl(12, 100%, 2%);
+  --black-off: hsl(268, 49%, 15%);
   --eerie-black: hsl(240, 4%, 10%);
   --davys-gray: hsl(0, 0%, 34%);
   --light-gray: hsl(0, 0%, 84%);
@@ -306,7 +306,7 @@ body {
 }
 
 .logo {
-  color: var(--dark-purple);
+  color: var(--black-off);
   font-family: var(--ff-roboto);
   font-size: 35px;
   font-weight: var(--fw-900);
@@ -365,7 +365,7 @@ body {
 */
 
 .hero {
-  background-color: var(--russian-violet);
+  background-color: var(--black-on);
   color: var(--white);
   padding-block-start: calc(var(--section-padding) + 70px);
 }
@@ -507,7 +507,7 @@ body {
 */
 
 .app {
-  background-color: var(--russian-violet);
+  background-color: var(--black-on);
   color: var(--white);
 }
 
