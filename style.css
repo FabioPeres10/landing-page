@@ -382,14 +382,7 @@ body {
   margin-block-end: 30px;
 }
 .prodigy {
-  margin-top: 100px;
-  margin-left: 100px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 0.25rem;
-  border-color: #28a745;
-  border: 2px solid;
-  background-color: #fff;
+  margin: 70px auto 0;
   max-width: 100%;
   height: auto;
 }
@@ -434,22 +427,22 @@ body {
   padding: 20px;
   border-radius: var(--radius-10);
   text-align: center;
+  box-sizing: border-box;
+  height: 280px;
 }
 
 .features-card .card-icon {
-  color: var(--pumpkin);
-  font-size: 35px;
+
   max-width: max-content;
   margin-inline: auto;
 }
 
-.features-card .card-icon ion-icon {
-  --ionicon-stroke-width: 35px;
-}
 
 .features-card .card-title {
   margin-block: 18px 15px;
 }
+
+
 
 /*
   ABOUT
